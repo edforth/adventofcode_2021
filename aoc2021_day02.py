@@ -31,8 +31,8 @@ for line in lines:
         aim = aim + int(s[1])
     elif s[0] == 'up':
         aim = aim - int(s[1])
-part1answer = horizontal*depth
-print("Part 2 answer",part1answer)
+part2answer = horizontal*depth
+print("Part 2 answer",part2answer)
 #Correct first try (1857958050)
 
 
