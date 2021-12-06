@@ -43,7 +43,6 @@ def part1(filename,days):
         lines[i] = int(lines[i])
     #days = 80
     #print(lines)
-    
     for i in range(0,days):
         for j in range(0,len(lines)):
             if lines[j] == 0:
@@ -63,3 +62,6 @@ print("Part 2 test answer =",part2('day06input_test1.txt',256))
 print("Part 2 answer =",part2('day06input.txt',256))
 #First try!! (1631647919273)
 
+#print("Part 2 answer the sloooow way=",part1('day06input.txt',256))
+#Nope, ran this over 8 hours and it didn't complete
+#LOL, got a memory error after running this about 11 hours
