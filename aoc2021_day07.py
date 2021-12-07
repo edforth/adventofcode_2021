@@ -3,10 +3,10 @@ def part1(filename):
         lines = f.read().split(',')
     for i in range(0,len(lines)):
         lines[i] = int(lines[i])
-    print(lines)
+    #print(lines)
     leftmost = min(lines)
     rightmost = max(lines)
-    print(leftmost,rightmost)
+    #print(leftmost,rightmost)
     lowestfuel = ""
     for i in range(leftmost,rightmost+1):
         fuelused = 0
@@ -22,10 +22,10 @@ def part2(filename):
         lines = f.read().split(',')
     for i in range(0,len(lines)):
         lines[i] = int(lines[i])
-    print(lines)
+    #print(lines)
     leftmost = min(lines)
     rightmost = max(lines)
-    print(leftmost,rightmost)
+    #print(leftmost,rightmost)
     lowestfuel = ""
     for i in range(leftmost,rightmost+1):
         fuelused = 0
@@ -38,8 +38,8 @@ def part2(filename):
 
 print("Part 1 test answer=",part1('day07input_test1.txt'))
 print("Part 1 answer=",part1('day07input.txt'))
-#Correct first try
+#Correct first try (356992)
 
 print("Part 2 test answer=",part2('day07input_test1.txt'))
 print("Part 2 answer=",part2('day07input.txt'))
-#Correct first try!!!  Hooray for math knowledge!
+#Correct first try!!! (101268110)  Hooray for math knowledge!
