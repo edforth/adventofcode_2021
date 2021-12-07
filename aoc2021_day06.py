@@ -13,7 +13,7 @@ def part2(filename,days):
     #print("fishdays=",fishdays)
     #nextfishdays = [0,0,0,0,0,0,0,0,0]
     for i in range(0,days):
-        print("fishday #",i,"=",fishdays)
+        #print("fishday #",i,"=",fishdays)
         nextfishdays = [0,0,0,0,0,0,0,0,0]
         for j in range(0,len(fishdays)):
             if j < 6 or j == 7:
