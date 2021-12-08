@@ -66,7 +66,7 @@ def getdigitpatterns(signalpatterns):
             if presentinnine == 5:
                 #print("foundthethree!!")
                 digitpatterns['three'] = signalpattern
-    #find the 2 and six because they're the only ones left of their lengths
+    #find the 2 and zero because they're the only ones left of their lengths
     for signalpattern in signalpatterns:
         if len(signalpattern) == 5 and signalpattern != digitpatterns['three'] and signalpattern != digitpatterns['five']:
             digitpatterns['two'] = signalpattern
