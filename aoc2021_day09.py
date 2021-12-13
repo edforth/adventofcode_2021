@@ -38,6 +38,7 @@ def part2(filename):
     with open(filename,'r') as f:
         lines = f.read().splitlines()
     
+    
 
 
 
